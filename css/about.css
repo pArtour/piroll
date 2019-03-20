@@ -1,0 +1,258 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+a:hover,
+a:active,
+a:visited,
+a:focus {
+	text-decoration: none;
+}
+
+.gray {
+	background-color: #e9e9e9;
+}
+
+.green {
+	background-color: #10c9c3;
+}
+
+.lighten__gray {
+	background-color: #f6f6f6;
+
+}
+.btn {
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	font-size: 12px;
+}
+
+.btn:hover {
+	color: #fff;
+}
+.header {
+	padding: 40px 0 30px 0;
+}
+.menu {
+	margin-right: 55px;
+}
+.menu__item {
+	padding-right: 30px;
+	list-style-type: none;
+}
+
+
+.menu__link {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #191919;
+	letter-spacing: 1.2px;
+	text-decoration: none;
+	transition: all 0.4s ease;
+}
+
+.menu__link:hover {
+	color: #10c9c3;
+	text-decoration: none;
+}
+
+.section_color {
+	background-color: #141414;
+	opacity: 0.8;
+}
+.head {
+	padding: 120px 0;
+	color: #ffffff;
+	text-align: center;
+}
+
+.head__title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 38px;
+	font-weight: 500;
+	line-height: 48px;
+	letter-spacing: 0.38px;
+	margin-bottom: 20px;
+}
+
+.head__text {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0.09px;
+	width: 520px;
+}
+
+
+.achievement {
+	padding:102px 0;
+
+}
+.achievement__item {
+	line-height: 30px;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.icon {
+	margin-right: 27px;
+	color: #ffffff;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 2.4px;
+}
+
+.achievement__text {
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 1.2px;
+}
+
+.achievement__span {
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 0.54px;
+	display: block;
+}
+
+.about {
+
+	width: 454px;
+	padding: 140px 0;
+}
+
+.about__title {
+	margin-bottom: 41px;
+	color: #191919;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 60px;
+	letter-spacing: 0.3px;
+}
+
+.about__text {
+	display: block;
+
+	margin-bottom: 37px;
+	color: #787878;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.08px;
+}
+
+.call {
+	text-align: center;
+	padding: 100px 0;
+}
+
+.call__title {
+	color: #1d1d1d;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 84px;
+	letter-spacing: 0.3px;
+	margin-bottom: 10px;
+}
+
+.call__text {
+	display: block;
+	color: #787878;
+	width: 540px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.08px;
+	margin-bottom: 38px;
+}
+.call__button {
+	padding: 20px 52px;
+}
+.footer {
+	background-color: black;
+	padding:100px 0 ;
+}
+.credits__title {
+	display: block;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 0.18px;
+
+}
+.credits__text {
+	color: #bcbcbc;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.07px;
+	margin-top: 27px;
+}
+.contacts {
+	color: #bcbcbc;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 0.07px;
+	width: 153px;
+}
+.footer__links-item {
+	list-style-type: none;
+	display: block;
+	
+}
+.footer__list {
+	margin-right: 55px;
+	padding: 0;
+}
+.footer__list:nth-last-child(1) {
+	margin-right: 0;
+	margin-left: 50px
+}
+.footer__link {
+	text-decoration: none;
+	color: #bcbcbc;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.07px;
+}
+
+.footer__link:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+
